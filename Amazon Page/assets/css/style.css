@@ -1,1 +1,154 @@
-/* Your styles here */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(44, 49, 64);
+}
+
+.logo img {
+  padding: 1em;
+  height: 3em;
+}
+
+.nav-bar {
+  color: white;
+  background-color: rgba(63, 71, 88);
+  text-align: left;
+  padding: 1em;
+  box-sizing: border-box;
+  word-spacing: 1em;
+}
+
+.white-anchors {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+}
+
+.bg-orange {
+  margin: 1 0;
+  background-color: rgba(212, 109, 45);
+  text-align: center;
+  padding: 1em;
+  margin: 2em auto;
+}
+
+.bg-holiday {
+  background-image: url(../images/bg-image.png);
+  height: 12em;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2em;
+  margin: 2em auto;
+}
+
+.bg-holiday h1,
+p {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  line-height: 2em;
+}
+
+.gifts {
+  text-align: left;
+  background-color: rgb(255, 249, 244);
+  border-radius: 5px;
+}
+
+.gifts p {
+  font-size: larger;
+  color: black;
+  text-align: left;
+  word-spacing: 1px;
+  margin: auto 1em;
+}
+
+.gifts a {
+  color: rgba(93, 122, 136);
+  font-size: large;
+}
+
+.img-container {
+  display: inline-block;
+  text-align: center;
+  width: 23%;
+  box-sizing: border-box;
+  border: 1px solid #efe4e4;
+  margin: 1em;
+  border-radius: 25px;
+  box-shadow: 8px 2px 25px;
+}
+
+.img-container img {
+  box-sizing: border-box;
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.big-img-container {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #efe4e4;
+  margin: 2em auto;
+}
+
+.big-img-container img {
+  box-sizing: border-box;
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.big-img-container p {
+  color: black;
+}
+
+.big-img-container a {
+  color: rgba(93, 122, 136);
+  font-size: large;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(44, 49, 64);
+}
+
+.footer-nav {
+  background-color: rgba(63, 71, 88);
+  text-align: center;
+  padding: 1em;
+  box-sizing: border-box;
+  word-spacing: 1px;
+}
+
+.footer-anchor {
+  color: white;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo img {
+  height: 3em;
+  padding: 1em;
+}
